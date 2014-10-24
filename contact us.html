@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
   <head>
     <meta charset="utf-8" />
     <title>Dmack's Web Design Company- Contact Us</title>
     <link rel="stylesheet" type="text/css" media="screen" href="Dmacks.css" />
     <link rel="stylesheet" type="text/css" media="print" href="DKprint.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <!--[if It IE 7]>
+      <style type="text/css">
+        #mainnav {left: 0px;}
+        li img {left"-42px}
+      </style>
       <![endif]-->
     <script src="scripts/modernizr-1.6.minjs"></script>
   </head>
@@ -23,8 +28,80 @@
      </nav>
       <h1>Want to advertise your Internet Marketing Business?</h1>
       <h2 class="maintext">Contact Dmack's Web Design Company.</h2>
+       <article class="content">
+        <h3 id="main">Request Form</h3>
+        <form>
+          <fieldset id="contactinfo">
+            <legend><span>Contact Information</span></legend>
+            <label>
+              Name
+              <input type="text" name="name" id="nameinput" placeholder="First and last name"  />
+            </label>
+            <label>
+              Email
+            <input type="text" name="email" id="emailinput" placeholder=" address@example.com" />
+            </label>
+            <label>
+              Phone
+            <input type="text" name="phone" id="phoneinput" />
+            </label>
+          </fieldset>
+          <fieldset id="Requestinfo">
+             <legend><span>Request</span></legend>
+            </fieldset>
+            <fieldset id="Type">
+              <legend>Type</legend>
+              <label for="design">
+                <input type="radio" name="design" id="design" value="Design site" />
+                Design site
+              </label>
+              <label for="redesign">
+                <input type="radio" name="redesign" id="redesign" value="Redesign site" />
+                Redesign site
+              </label>
+            </fieldset>
+            <fieldset id="system">
+              <legend>Operating System</legend>
+              <select id="system" name="system">
+                <option value="Windows">Windows</option>
+                <option value="Linux">Linux</option>
+                <option value="Unix">Unix</option>
+                <option value="DOS">DOS</option>
+              </select>
+            </fieldset>
+            <fieldset id="applicationbox">
+              <legend>Web Application(s)</legend>
+              <label for="XML">
+                <input type="checkbox" id="XML" value="XML" name="applications" />
+                XML
+              </label>
+              <label for="XHTML">
+                <input type="checkbox" id="XHTML" value="XHTML" name="applications" />
+                XHTML
+              </label>
+              <label for="HTML4">
+                <input type="checkbox" id="html4" value="HTML4" name="applications" />
+                HTML4
+              </label>
+              <label for="HTML5">
+                <input type="checkbox" id="html5" value="HTML5" name="applications" />
+                HTML5
+              </label>
+          </fieldset>
+          <fieldset id="additionalinfo">
+            <legend><span>Additional Information</span></legend>
+            <label>
+              Questions or special request
+              <textarea id="additionalinfo" name="additionalinfo" rows="3" cols="60"></textarea>
+            </label>
+           </fieldset>
+          <fieldset id="submitbutton">
+            <input type="submit" id="submit" value="Add to Cart" />
+          </fieldset>
+        </form>
+      </article>
       <p class="maintext">Have questions about services? Interested in signing up? Please contact us.</p>
-      <p id="contact"><span id="name">Darrell McCombs</span><br />117 W. Willis St.<br />Johnson City, TN. 37604<br />423-676-6735</p>
+      <p id="contact"><span id="name">Darrell McCombs</span><br />117 W. Willis St.<br />Johnson City, TN. 37604<br />dmack@dhappy.org<br />423-676-6735</p>
      </div>
    </body> 
  </html>
