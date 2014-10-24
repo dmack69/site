@@ -5,7 +5,6 @@
 article, body, dd, div, dl, dt, figcaption, footer, h1, h2, h3, li, nav, ol, p, section, table, th, td, ul {
 margin: 0;
 padding: 0;
-}
   font-family: 'CuprumFFURegular';
   src: url('Cuprum-webfont.eot');
   src: local('☺'), url('Cuprum-webfont.woff') format('woff'), url('Cuprum-webfont.ttf') format('truetype'), url('Cuprum-webfont.svg#webfontKLktnWy4') format('svg');
@@ -19,7 +18,7 @@ body {
   margin: auto;
   font-family: tahoma, arial, helvetica, sans-serif;
   background: #6e93c8;
-  background: ("images/networks.jpg")
+  background: url("images/networks.jpg");
   }
 figcaption {
   display: block;
