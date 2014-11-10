@@ -156,34 +156,6 @@ li img {
    left: -0.75em;
    z-index: 1;
    }
-#contactinfo label {
-   display: block;
-   position: relative;
-   margin: 12px 0;
-   }
-#contactinfo input {
-   position: absolute;
-   left: 100px;
-   }
-#nameinput, #emailinput {
-  width: 30em;
-  }
-#phoneinput {
-  width: 12em;
-  }
-#submit {
-  background: #e3d5ba;
-  font-size: 1.25em;
-  }
-#submitbutton {
-  border: none;
-  background: #6a91ca;
-  padding: 0.5em 0 0 0;
-  text-align: center;
-  }  
-input:focus, textarea:focus {
-  background: #e3d5ba;
-  }  
 .boxshadow {
    border: none;
   -webkit-box-shadow: 2px 2px 4px black;

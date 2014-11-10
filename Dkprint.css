@@ -17,8 +17,6 @@ body {
   padding; 0;
   margin: auto;
   font-family: tahoma, arial, helvetica, sans-serif;
-  background: #6e93c8;
-  background: url("images/networks.jpg");
   }
 figcaption {
   display: block;
@@ -47,7 +45,6 @@ h2 {
    padding: 0.5em;
    margin-left: auto;
    margin-bottom: 0;
-   background: #99CCCC;
    }
 #box {
    border-box: 60em;
@@ -76,7 +73,6 @@ td {
 th {
   border-bottom: 1px solid black;
   padding: 0.25em;
-  background: #B8944D;
   }
 #maintext:first-line {
   font-weight: bold;
@@ -109,7 +105,6 @@ li img {
    padding: 0.25em;
    padding-left: 1em;
    width: 6em;
-   background: #99CCCC;
    left: 5px;
    position: absolute;
    left: 50px;
@@ -122,7 +117,6 @@ li img {
    padding: 0.25em;
    margin: 0.25em;
    position: relative;
-   background: #B8944D;
   -webkit-border-top-right-radius: 15px;
   -webkit-border-bottom-right-radius: 15px;
   -moz-border-radius-topright: 15px;
@@ -149,7 +143,6 @@ li img {
 #navaccent {
    width: 1.5em;
    height: 12.25em;
-   background: #4D8103;
    position: relative;
    clear: right;
    top: -10em;
@@ -172,17 +165,14 @@ li img {
   width: 12em;
   }
 #submit {
-  background: #e3d5ba;
   font-size: 1.25em;
   }
 #submitbutton {
   border: none;
-  background: #6a91ca;
   padding: 0.5em 0 0 0;
   text-align: center;
   }  
 input:focus, textarea:focus {
-  background: #e3d5ba;
   }  
 .boxshadow {
    border: none;
@@ -191,11 +181,9 @@ input:focus, textarea:focus {
   box-shadow: 2px 2px 4px black;
   }
 .cotcol {
-  background: #9daecd;
   width: 15%;
   }
 .firstcol {
-  background: #f1eace;
   width: 25%;
   }
 .rates td {
@@ -205,7 +193,6 @@ input:focus, textarea:focus {
   text-align: left;
   }
 .web appcols {
-  background: #aecdf4;
   width: 15%;
   }
 p {
@@ -227,31 +214,30 @@ p {
   font-style: italic;
   }
 #name {
-  color: rgb(0,82,0);
   font-weight: bold;
   }
 #mainnav a:link {
   color: black;
   }
 #mainnav a:visited {
-  color: #422100;
+  color: black;
   }
 #mainnav a:hover {
-  color: white;
+  color: black;
   text-shadow: 2px 2px 2px black;
   }
 #mainnav a:active {
-  color: 422100;
+  color: black;
   }
 #pagenav a:link {
-  color: white;
+  color: black;
   }
 #pagenav a:visited {
-  color: #D7C39C;
+  color: black;
   }
 #pagenav a:hover {
-  color: #C6A971;
+  color: black;
   }
 #pagenav a:active {
-  color: white;
+  color: black;
   }
